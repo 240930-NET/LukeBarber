@@ -42,7 +42,7 @@ namespace StudentPhonebook
 
         static void AddStudentViaConsole(StudentManager manager)
         {
-            string id = Validation.GetValidInput("Enter Student ID (non-empty): ", Validation.IsValidId);
+            string id = Validation.GetValidInput("Enter Student ID (xyz123456): ", Validation.IsValidId);
             string name = Validation.GetValidInput("Enter Student Name (non-empty): ", Validation.IsValidName);
             string phoneNumber = Validation.GetValidInput("Enter Phone Number (10 digits): ", Validation.IsValidPhoneNumber);
 
